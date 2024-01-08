@@ -1,0 +1,28 @@
+{
+  "name": "number-currency",
+  "version": "0.0.1",
+  "description": "A javascript library to convert numbers into desired currency in words.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/alwinsanil/number-currency",
+  "repository": {
+    "url": "https://github.com/alwinsanil/number-currency"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "currency",
+    "convert",
+    "words",
+    "money",
+    "currency to words"
+  ],
+  "author": "alwinsanil",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
